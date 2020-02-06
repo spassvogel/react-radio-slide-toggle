@@ -1,8 +1,8 @@
 {
   "name": "react-radio-slide-toggle",
   "version": "1.0.0",
-  "description": "Boilerplate for publishing modern React modules with Rollup",
-  "author": "Travis Fischer",
+  "description": "A slider toggle for react",
+  "author": "Wouter van den Heuvel",
   "license": "MIT",
   "repository": "https://github.com/spassvogel/react-radio-slide-toggle",
   "main": "dist/index.js",

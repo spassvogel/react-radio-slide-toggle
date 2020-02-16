@@ -2,9 +2,7 @@
   "name": "react-radio-slide-toggle",
   "version": "1.0.1",
   "description": "A react radio slide toggle",
-  "repository": {
-    "github:spassvogel/react-radio-slide-toggle"
-  },
+  "repository": "github:spassvogel/react-radio-slide-toggle",
   "main": "build/index.js",
   "scripts": {
     "start": "webpack --watch",

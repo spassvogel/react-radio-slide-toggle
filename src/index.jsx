@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from 'react';
 import PropTypes from 'prop-types';
-
 import './styles.css';
 
 const SlideToggle = (props) => {
@@ -12,7 +11,7 @@ const SlideToggle = (props) => {
   const [selected, setSelected] = useState(props.selected); // selected value
 
   const selectedIndex = useMemo(() => options
-    .findIndex((o) => o.name === selected), [selected, options]);
+    .findIndex((o) => o.value === selected), [selected, options]);
 
   const handleChange = (value) => {
     if (value !== selected) {

@@ -5,6 +5,7 @@ A radio slide toggle for react
 
 Basically it's a checkbox group that renders as a sliding toggle. The HTML is still a functioning checkbox group so accessability is guaranteed.
 
+![alt test](images/demo.gif)
 
 ## Install
 

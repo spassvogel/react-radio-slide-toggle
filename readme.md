@@ -85,6 +85,18 @@ This renders the slide toggle unstyled, which is not what you want. So add a sty
 
 Customize as needed.
 
+
+## Properties
+
+Property  | Type | Description
+-- | -- | -- | --
+options | `Array` | Options to display. Need to be in this format `{ label: 'label', value: 'value'}`
+name | `string` | Name of the radio group. Optional.
+selected | `string` | Value of the initially selected option. Optional.
+onChange | `function` | Function that gets called when value changes. Will get passed the selected `value`. Optional.
+className | `string` | Classname to be added to the radio group. Optional.
+toggleClassName | `string` | Classname to be added to the toggle element. Optional.
+
 ## License
 
 MIT © [Wouter van den Heuvel](https://github.com/spassvogel)
